@@ -1,0 +1,14 @@
+sim_termination: 604800000  # in ms
+coll_calc: True
+#sim_termination: 14400000 # 6h in ms for testing
+BW: 125
+PL: 3
+CR: 1 2 3 4
+# CR: 3 4
+CRC: 1
+H: 0 1
+DE: 0
+npreamble: 8
+payloads: 1 4 8 16 32 51
+half_distance: 2601 # in km
+number_of_sensors: 700
