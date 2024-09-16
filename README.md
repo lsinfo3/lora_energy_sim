@@ -23,3 +23,5 @@ The "zipped_logs" folder contains two ZIP-files:
 - gateway_placement_logs.zip: This describes the second use-case.
  
 Extracting these ZIP-files grants access to the transmission logs used in the evaluation of the original paper. 
+
+A script is also provided to calculate the time on air for different payloads and spreading factors as "get_toas_for_cr_sf.py".
