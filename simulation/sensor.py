@@ -111,7 +111,7 @@ class Sensor:
 
                 # Try sending packet for a random time
                 if self.random_payload:
-                    self.payload = random.choice(self.system.params.payloads)
+                    self.payload = np.random.randint(1, 52)
                 self.is_successful = True  # Only for successful transmission
                 self.sending_duration = round(self.payload_size_to_time(self.payload, self.sf), 3)
 

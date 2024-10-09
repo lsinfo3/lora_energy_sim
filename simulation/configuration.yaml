@@ -1,5 +1,5 @@
 sim_termination: 604800000  # in ms
-coll_calc: True
+coll_calc: False
 #sim_termination: 14400000 # 6h in ms for testing
 BW: 125
 PL: 3
